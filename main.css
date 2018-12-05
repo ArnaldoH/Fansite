@@ -1,0 +1,26 @@
+body {
+	background-image: url("https://images1.laweekly.com/imager/u/original/6805032/delin_-_lacma_rain_room_drops.jpg");	
+}
+p {
+	color: white;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+}
+#nav {
+	display:flex;
+	justify-content: space-around;
+	white-space: nowrap;
+	border-bottom: solid white 2px;
+	border-top: solid white 2px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+#nav a {
+	font-family: 'Poor Story', cursive;
+	color: white;
+	font-size: 24px;
+}
