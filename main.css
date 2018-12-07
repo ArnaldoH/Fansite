@@ -24,3 +24,22 @@ p {
 	color: white;
 	font-size: 24px;
 }
+#wrapperM, #wrapper2, #wrapper3, #wrapper4{
+	display: flex;
+	align-content: center;
+	width: 80%;
+	border: solid 2px white;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+	background-color: #737373;
+	opacity: 0.85;
+	color: white;
+}
+#wrapperA {
+	display:flex;
+}
+#banner {
+	display:flex;
+	justify-content: center;
+}
