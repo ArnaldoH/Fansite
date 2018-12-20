@@ -10,6 +10,12 @@ p {
 	padding-right: 20px;
 	padding-bottom: 20px;
 }
+h1 {
+	font-family: 'Black Han Sans', sans-serif;
+	color: white; 
+	padding: 20px;
+	border-bottom: double 8px white;
+}
 #nav {
 	display:flex;
 	justify-content: space-around;
@@ -24,9 +30,8 @@ p {
 	color: white;
 	font-size: 24px;
 }
-#wrapperM, #wrapper2, #wrapper3, #wrapper4{
+#wrapperM {
 	display: flex;
-	align-content: center;
 	width: 80%;
 	border: solid 2px white;
 	margin-left: 100px;
@@ -48,4 +53,8 @@ p {
 	margin-bottom: 40px;
 	height: 350px;
 	width:100%;
+}
+#footer {
+	color: white;
+	font-size: 10px;
 }

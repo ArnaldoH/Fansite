@@ -8,6 +8,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
 
 	<style>
+	h1 {
+		color: white;
+		font-size: 90px;
+		border: double 15px gray;
+		padding: 20px;
+	}
+
 	#banner {
 		display:flex;
 		justify-content: center;	
@@ -16,22 +23,15 @@
 		display: flex;
 		width: 100%;
 		justify-content: center;
-	
 	}
-	#left {
-		border: solid white 2px;
-		width: 30%;
+	#main {
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
 	}
-	#middle {
-		border: solid white 2px;
-		width: 40%;
+	iframe {
+		margin-left: 90px;
 	}
-	#right {
-		border: solid white 2px;
-		width: 30%;
-	}
-	
-
 	</style>
 
 </head>
@@ -45,23 +45,20 @@
 		<a href="music.html"> Music</a>
 		<a href="collaborations.html"> Collaborations</a>
 		<a href="tours.html"> Tours</a>
-		<a href="https://youtube.com/tvfilthyfrank" target="_blank"> Youtube Channel </a>
+		<a href="media.html"> Media </a>
 		<a href="sources.html">Sources</a>
 	</div>
 	
 <div id="wrapper">
-
-	<div id="right">
-		<p>d</p>
-	</div>
-	<div id="middle">
-		<p>d</p>
-	</div>
-
-	<div id="left">
-		<p>d</p>
+	<div id="main">
+		<h1> Welcome to my Fan Page!</h1>
+		<iframe src="https://www.youtube.com/watch?v=-h5WrWncDZw" width="900" height="600">
 	</div>
 </div>
+
+	<div id="footer">
+		<p>© 2018 Arnaldo Hernandez</p>
+	</div>
 
 	</body>
 </html>
