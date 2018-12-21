@@ -15,6 +15,7 @@ h1 {
 	color: white; 
 	padding: 20px;
 	border-bottom: double 8px white;
+	font-size: 24px;
 }
 #nav {
 	display:flex;
